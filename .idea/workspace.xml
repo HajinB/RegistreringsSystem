@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77deabbb-7bfb-4672-995a-4ca8ba27ff13" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/Oblig.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/DatoNY.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/DatoNY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/FileOpener.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Filbehandling/FileOpener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/FileOpenerTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Filbehandling/FileOpenerTxt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/FileSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Filbehandling/FileSaver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/FileSaverTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Filbehandling/FileSaverTxt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/InvalidAgeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Avvik/InvalidAgeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/InvalidDatoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Avvik/InvalidDatoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/InvalidPersonFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Avvik/InvalidPersonFormatException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/ParsePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Filbehandling/ParsePerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/PersonFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Filbehandling/PersonFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/PrimaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/PrimaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/SecondaryController.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/resources/Hajin/CSS/Primary.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/resources/Hajin/primary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/resources/Hajin/primary.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,9 +33,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Hajin.IO" />
       <recent name="Hajin.Avvik" />
       <recent name="Hajin.Filbehandling" />
     </key>
@@ -60,20 +53,40 @@
       <option name="presentableId" value="Default" />
       <updated>1594830836154</updated>
       <workItem from="1594830837846" duration="458000" />
+      <workItem from="1594831367198" duration="1793000" />
     </task>
+    <task id="LOCAL−00001" summary="Fjernet secondary.fxml">
+      <created>1594831540148</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1594831540148</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fjernet secondary.fxml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fjernet secondary.fxml" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="192" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1594831252247">
+    <state x="499" y="192" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1594831464995">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="192" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1594831252247" />
-    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594831253996">
+    <state x="499" y="192" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1594831464995" />
+    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594831466768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1594831253996" />
+    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1594831466768" />
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1594831539412">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594831539412" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594831390281">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594831390281" />
   </component>
 </project>

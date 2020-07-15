@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
@@ -9,24 +10,23 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="432.0" prefWidth="907.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hajin.PrimaryController">
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="432.0" prefWidth="907.0" styleClass="bakgrunn" stylesheets="@CSS/Primary.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hajin.PrimaryController">
    <children>
-      <TextField fx:id="txtNavn" layoutX="138.0" layoutY="86.0" promptText="Skriv inn fullt navn" />
-      <TextField fx:id="txtDag" layoutX="138.0" layoutY="118.0" prefHeight="26.0" prefWidth="40.0" promptText="dd" />
-      <TextField fx:id="txtMnd" layoutX="180.0" layoutY="118.0" prefHeight="26.0" prefWidth="40.0" promptText="mm" />
-      <TextField fx:id="txtAar" layoutX="222.0" layoutY="118.0" prefHeight="26.0" prefWidth="64.0" promptText="aaaa" />
-      <TextField fx:id="txtAlder" layoutX="138.0" layoutY="152.0" promptText="Skriv inn alder" />
-      <TextField fx:id="txtEpost" layoutX="137.0" layoutY="185.0" promptText="Skriv inn e-postadresse" />
-      <TextField fx:id="txtTelefonnr" layoutX="137.0" layoutY="218.0" promptText="Skriv inn telefonnummer" />
-      <Button layoutX="46.0" layoutY="262.0" mnemonicParsing="false" onAction="#btnRegistrer" prefHeight="26.0" prefWidth="113.0" text="Registrer">
+      <TextField fx:id="txtNavn" layoutX="138.0" layoutY="86.0" promptText="Skriv inn fullt navn" AnchorPane.leftAnchor="137.99999999999994" />
+      <TextField fx:id="txtDag" layoutX="181.0" layoutY="118.0" prefHeight="26.0" prefWidth="40.0" promptText="dd" AnchorPane.leftAnchor="181.0" />
+      <TextField fx:id="txtMnd" layoutX="138.0" layoutY="118.0" prefHeight="26.0" prefWidth="40.0" promptText="mm" AnchorPane.leftAnchor="138.0" />
+      <TextField fx:id="txtAar" layoutX="225.0" layoutY="118.0" prefHeight="26.0" prefWidth="62.0" promptText="aaaa" AnchorPane.leftAnchor="225.0" />
+      <TextField fx:id="txtAlder" layoutX="138.0" layoutY="152.0" promptText="Skriv inn alder" AnchorPane.leftAnchor="137.99999999999994" />
+      <TextField fx:id="txtEpost" layoutX="137.0" layoutY="185.0" promptText="Skriv inn e-postadresse" AnchorPane.leftAnchor="137.99999999999994" />
+      <TextField fx:id="txtTelefonnr" layoutX="137.0" layoutY="218.0" promptText="Skriv inn telefonnummer" AnchorPane.leftAnchor="137.99999999999994" />
+      <Button layoutX="46.0" layoutY="262.0" mnemonicParsing="false" onAction="#btnRegistrer" prefHeight="26.0" prefWidth="113.0" text="Registrer" AnchorPane.leftAnchor="46.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>
-      <Button layoutX="170.0" layoutY="262.0" mnemonicParsing="false" onAction="#btnSlettInnhold" prefHeight="26.0" prefWidth="114.0" text="Slett innhold">
+      <Button layoutX="171.0" layoutY="262.0" mnemonicParsing="false" onAction="#btnSlettInnhold" prefHeight="26.0" prefWidth="114.0" text="Slett innhold" AnchorPane.leftAnchor="171.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>
-      <Label fx:id="lblBekreftelse" layoutX="46.0" layoutY="350.0" prefHeight="40.0" prefWidth="236.0" textFill="RED" />
       <Label layoutX="46.0" layoutY="90.0" text="Navn: ">
          <font>
             <Font name="System Bold" size="12.0" />
@@ -39,7 +39,7 @@
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Label>
-      <Label layoutX="46.0" layoutY="32.0" text="Registrering">
+      <Label layoutX="45.0" layoutY="27.0" text="Personregistrering">
          <font>
             <Font name="System Bold" size="28.0" />
          </font>
@@ -52,16 +52,17 @@
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Label>
-      <Label fx:id="lblBekreftelse2" layoutX="46.0" layoutY="350.0" prefHeight="40.0" prefWidth="236.0" textFill="#5bb770" wrapText="true" />
-      <Button layoutX="170.0" layoutY="296.0" mnemonicParsing="false" onAction="#btnLagre" prefHeight="26.0" prefWidth="114.0" text="Lagre liste">
+      <Label fx:id="lblBekreftelse" layoutX="48.0" layoutY="305.0" prefHeight="40.0" prefWidth="236.0" styleClass="lblBekreftelse" stylesheets="@CSS/Primary.css" textFill="RED" />
+      <Label fx:id="lblBekreftelse2" layoutX="48.0" layoutY="305.0" prefHeight="40.0" prefWidth="236.0" styleClass="lblBekreftelse" stylesheets="@CSS/Primary.css" textFill="#5bb770" wrapText="true" />
+      <Button layoutX="46.0" layoutY="375.0" mnemonicParsing="false" onAction="#btnLagre" prefHeight="26.0" prefWidth="114.0" text="Lagre liste" AnchorPane.leftAnchor="46.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>
-      <Button layoutX="45.0" layoutY="296.0" mnemonicParsing="false" onAction="#btnSeListe" prefHeight="26.0" prefWidth="114.0" text="Last opp fra liste">
+      <Button layoutX="171.0" layoutY="375.0" mnemonicParsing="false" onAction="#btnSeListe" prefHeight="26.0" prefWidth="114.0" text="Last opp fra fil" AnchorPane.leftAnchor="171.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>
-      <TableView fx:id="tv" layoutX="319.0" layoutY="32.0" prefHeight="370.0" prefWidth="553.0">
+      <TableView fx:id="tv" layoutX="319.0" layoutY="32.0" prefHeight="370.0" prefWidth="553.0" AnchorPane.bottomAnchor="29.600000000000023" AnchorPane.leftAnchor="319.0" AnchorPane.rightAnchor="34.39999999999998" AnchorPane.topAnchor="32.0">
         <columns>
           <TableColumn fx:id="Navn" prefWidth="147.19997787475586" text="Navn"> <cellValueFactory>
             <PropertyValueFactory property="Navn" />
@@ -81,6 +82,10 @@
             <PropertyValueFactory property="Telefonnr" />
             </cellValueFactory></TableColumn>
         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
       </TableView>
+      <Separator layoutX="12.0" layoutY="360.0" prefHeight="4.0" prefWidth="294.0" />
    </children>
 </AnchorPane>

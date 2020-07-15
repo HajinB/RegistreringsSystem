@@ -1,0 +1,34 @@
+.lblBekreftelse {
+    -fx-background-color: white;
+}
+
+.bakgrunn {
+    -fx-background-color: ligh;
+}
+
+.button {
+    -fx-border-color: grey;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-font-family: Verdana;
+    -fx-font-size: 12px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-text-fill: #388DC8;
+    -fx-font-family: Verdana;
+    -fx-border-color: white;
+}
+
+.button:pressed {
+    -fx-border-color: white;
+    -fx-font-weight: bold;
+    -fx-text-fill: #70A4C8;
+    -fx-background-color: transparent;
+    -fx-font-family: Verdana;
+
+}
