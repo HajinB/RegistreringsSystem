@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77deabbb-7bfb-4672-995a-4ca8ba27ff13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/Oblig.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/DatoNY.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/DatoNY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/FileOpener.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Filbehandling/FileOpener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/FileOpenerTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Filbehandling/FileOpenerTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/FileSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Filbehandling/FileSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/FileSaverTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Filbehandling/FileSaverTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/InvalidAgeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Avvik/InvalidAgeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/InvalidDatoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Avvik/InvalidDatoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/InvalidPersonFormatException.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Avvik/InvalidPersonFormatException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/ParsePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Filbehandling/ParsePerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/PersonFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/Filbehandling/PersonFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/PrimaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/PrimaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegistreringsSystem/Oblig/src/main/java/Hajin/SecondaryController.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ejN2kiZQ85WXKKuFXhyJJC08jP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Hajin.Avvik" />
+      <recent name="Hajin.Filbehandling" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77deabbb-7bfb-4672-995a-4ca8ba27ff13" name="Default Changelist" comment="" />
+      <created>1594830836154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594830836154</updated>
+      <workItem from="1594830837846" duration="458000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="192" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1594831252247">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="192" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1594831252247" />
+    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594831253996">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1594831253996" />
+  </component>
+</project>

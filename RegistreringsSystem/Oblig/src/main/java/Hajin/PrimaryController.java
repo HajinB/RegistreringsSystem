@@ -1,8 +1,10 @@
 package Hajin;
 
 
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
+import Hajin.Avvik.InvalidAgeException;
+import Hajin.Avvik.InvalidPersonFormatException;
+import Hajin.Filbehandling.FileOpener;
+import Hajin.Filbehandling.FileSaver;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -10,10 +12,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
-import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.control.cell.TextFieldTableCell;
 import javafx.stage.FileChooser;
-import javafx.util.converter.IntegerStringConverter;
 
 import static Hajin.PersonValidering.*;
 

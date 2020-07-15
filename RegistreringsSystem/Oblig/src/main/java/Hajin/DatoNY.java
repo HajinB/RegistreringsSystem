@@ -1,5 +1,7 @@
 package Hajin;
 
+import Hajin.Avvik.InvalidDatoException;
+
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
