@@ -146,7 +146,7 @@ public class PrimaryController implements Initializable {
             registrering.personreg(navn, d.toString(), alder, epost, telefonnr);
         }
         tv.setItems(registrering.personListe);
-        lblBekreftelse2.setText("Registrering vellykket. Sjekk at informasjonen stemmer nedenfor");
+        lblBekreftelse2.setText("Registrering vellykket. Sjekk at informasjonen stemmer i listen til høyre.");
 
         resetTxtFields();
     }

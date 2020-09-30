@@ -10,34 +10,55 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="432.0" prefWidth="907.0" styleClass="bakgrunn" stylesheets="@CSS/Primary.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hajin.PrimaryController">
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="432.0" prefWidth="907.0" styleClass="ancorPane" stylesheets="@CSS/Primary.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Hajin.PrimaryController">
    <children>
-      <TextField fx:id="txtNavn" layoutX="138.0" layoutY="86.0" promptText="Skriv inn fullt navn" AnchorPane.leftAnchor="137.99999999999994" />
-      <TextField fx:id="txtDag" layoutX="181.0" layoutY="118.0" prefHeight="26.0" prefWidth="40.0" promptText="dd" AnchorPane.leftAnchor="181.0" />
-      <TextField fx:id="txtMnd" layoutX="138.0" layoutY="118.0" prefHeight="26.0" prefWidth="40.0" promptText="mm" AnchorPane.leftAnchor="138.0" />
-      <TextField fx:id="txtAar" layoutX="225.0" layoutY="118.0" prefHeight="26.0" prefWidth="62.0" promptText="aaaa" AnchorPane.leftAnchor="225.0" />
-      <TextField fx:id="txtAlder" layoutX="138.0" layoutY="152.0" promptText="Skriv inn alder" AnchorPane.leftAnchor="137.99999999999994" />
-      <TextField fx:id="txtEpost" layoutX="137.0" layoutY="185.0" promptText="Skriv inn e-postadresse" AnchorPane.leftAnchor="137.99999999999994" />
-      <TextField fx:id="txtTelefonnr" layoutX="137.0" layoutY="218.0" promptText="Skriv inn telefonnummer" AnchorPane.leftAnchor="137.99999999999994" />
-      <Button layoutX="46.0" layoutY="262.0" mnemonicParsing="false" onAction="#btnRegistrer" prefHeight="26.0" prefWidth="113.0" text="Registrer" AnchorPane.leftAnchor="46.0">
+      <TextField fx:id="txtNavn" layoutX="129.99999999999994" layoutY="86.0" promptText="Skriv inn fullt navn" AnchorPane.leftAnchor="129.99999999999994">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="txtDag" alignment="CENTER" layoutX="131.0" layoutY="118.0" prefHeight="27.0" prefWidth="50.0" promptText="dd" AnchorPane.leftAnchor="131.0">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="txtMnd" alignment="CENTER" layoutX="183.0" layoutY="118.0" prefHeight="27.0" prefWidth="50.0" promptText="mm" AnchorPane.leftAnchor="183.0">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="txtAar" alignment="CENTER" layoutX="235.0" layoutY="118.0" prefHeight="27.0" prefWidth="62.0" promptText="aaaa" AnchorPane.leftAnchor="235.0">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="txtAlder" layoutX="129.99999999999994" layoutY="152.0" promptText="Skriv inn alder" AnchorPane.leftAnchor="129.99999999999994">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="txtEpost" layoutX="129.99999999999994" layoutY="185.0" promptText="Skriv inn e-postadresse" AnchorPane.leftAnchor="129.99999999999994">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="txtTelefonnr" layoutX="129.99999999999994" layoutY="218.0" promptText="Skriv inn telefonnummer" AnchorPane.leftAnchor="129.99999999999994">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font></TextField>
+      <Button layoutX="52.0" layoutY="262.0" mnemonicParsing="false" onAction="#btnRegistrer" prefHeight="26.0" prefWidth="113.0" styleClass="regButton" text="Registrer" AnchorPane.leftAnchor="52.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>
-      <Button layoutX="171.0" layoutY="262.0" mnemonicParsing="false" onAction="#btnSlettInnhold" prefHeight="26.0" prefWidth="114.0" text="Slett innhold" AnchorPane.leftAnchor="171.0">
+      <Button layoutX="174.0" layoutY="262.0" mnemonicParsing="false" onAction="#btnSlettInnhold" prefHeight="26.0" prefWidth="114.0" text="Slett innhold" AnchorPane.leftAnchor="174.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>
       <Label layoutX="46.0" layoutY="90.0" text="Navn: ">
          <font>
-            <Font name="System Bold" size="12.0" />
+            <Font name="Calibri" size="14.0" />
          </font></Label>
       <Label layoutX="46.0" layoutY="122.0" text="Fødselsdato:">
          <font>
-            <Font name="System Bold" size="12.0" />
+            <Font name="Calibri" size="14.0" />
          </font></Label>
       <Label layoutX="47.0" layoutY="156.0" text="Alder:">
          <font>
-            <Font name="System Bold" size="12.0" />
+            <Font name="Calibri" size="14.0" />
          </font></Label>
       <Label layoutX="45.0" layoutY="27.0" text="Personregistrering">
          <font>
@@ -46,19 +67,19 @@
       </Label>
       <Label layoutX="47.0" layoutY="189.0" text="E-post:">
          <font>
-            <Font name="System Bold" size="12.0" />
+            <Font name="Calibri" size="14.0" />
          </font></Label>
       <Label layoutX="46.0" layoutY="222.0" text="Telefonnr: ">
          <font>
-            <Font name="System Bold" size="12.0" />
+            <Font name="Calibri" size="14.0" />
          </font></Label>
       <Label fx:id="lblBekreftelse" layoutX="48.0" layoutY="305.0" prefHeight="40.0" prefWidth="236.0" styleClass="lblBekreftelse" stylesheets="@CSS/Primary.css" textFill="RED" />
-      <Label fx:id="lblBekreftelse2" layoutX="48.0" layoutY="305.0" prefHeight="40.0" prefWidth="236.0" styleClass="lblBekreftelse" stylesheets="@CSS/Primary.css" textFill="#5bb770" wrapText="true" />
-      <Button layoutX="46.0" layoutY="375.0" mnemonicParsing="false" onAction="#btnLagre" prefHeight="26.0" prefWidth="114.0" text="Lagre liste" AnchorPane.leftAnchor="46.0">
+      <Label fx:id="lblBekreftelse2" layoutX="48.0" layoutY="305.0" prefHeight="40.0" prefWidth="251.0" styleClass="lblBekreftelse" stylesheets="@CSS/Primary.css" textFill="#5bb770" wrapText="true" />
+      <Button layoutX="52.0" layoutY="375.0" mnemonicParsing="false" onAction="#btnLagre" prefHeight="26.0" prefWidth="114.0" styleClass="regButton" text="Lagre liste" AnchorPane.leftAnchor="51.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>
-      <Button layoutX="171.0" layoutY="375.0" mnemonicParsing="false" onAction="#btnSeListe" prefHeight="26.0" prefWidth="114.0" text="Last opp fra fil" AnchorPane.leftAnchor="171.0">
+      <Button layoutX="174.0" layoutY="375.0" mnemonicParsing="false" onAction="#btnSeListe" prefHeight="26.0" prefWidth="114.0" text="Last opp fra fil" AnchorPane.leftAnchor="175.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>

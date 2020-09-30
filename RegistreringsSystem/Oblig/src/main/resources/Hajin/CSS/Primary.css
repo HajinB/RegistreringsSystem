@@ -1,19 +1,35 @@
-.lblBekreftelse {
-    -fx-background-color: white;
+
+.ancorPane {
+    -fx-background-color: rgba(201, 188, 180, 0.2)
 }
 
-.bakgrunn {
-    -fx-background-color: ligh;
+
+#TextField {
+    -fx-cursor: text;
+    -fx-background-color: antiquewhite;
+    -fx-border-color: red;
 }
 
 .button {
-    -fx-border-color: grey;
-    -fx-text-fill: black;
+    -fx-border-color: #3483ba;
+    -fx-text-fill: #3483ba;
     -fx-font-weight: bold;
     -fx-background-color: transparent;
     -fx-font-family: Verdana;
-    -fx-font-size: 12px;
+    -fx-font-size: 10px;
     -fx-cursor: hand;
+    -fx-border-radius: 5;
+}
+
+.regButton {
+    -fx-border-color: #3483ba;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color:#388DC8 ;
+    -fx-font-family: Verdana;
+    -fx-font-size: 10px;
+    -fx-cursor: hand;
+    -fx-border-radius: 5;
 }
 
 .button:hover {
@@ -21,14 +37,14 @@
     -fx-font-weight: bold;
     -fx-text-fill: #388DC8;
     -fx-font-family: Verdana;
-    -fx-border-color: white;
+    -fx-border-color: #388DC8;
 }
 
 .button:pressed {
-    -fx-border-color: white;
+    -fx-border-color: #3483ba;
     -fx-font-weight: bold;
-    -fx-text-fill: #70A4C8;
-    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-background-color: #388DC8;
     -fx-font-family: Verdana;
 
 }
